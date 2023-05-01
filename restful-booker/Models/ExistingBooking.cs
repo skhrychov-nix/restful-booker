@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace restful_booker.Models
 {
-    internal class ExistingBooking
+    public class ExistingBooking
     {
         [JsonProperty("id")]   // ??????
         public int Id { get; set; }

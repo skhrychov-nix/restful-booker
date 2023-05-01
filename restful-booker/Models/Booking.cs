@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace restful_booker.Models
 {
-    internal class Booking
+    public class Booking
     {
         public Customer Customer { get; set; }
 
