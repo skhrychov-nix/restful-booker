@@ -9,7 +9,7 @@ namespace restful_booker.Models
 {
     public class Credentials
     {
-        [JsonProperty("username")]
+        [JsonProperty("username", Required = Required.Always)]
         public string UserName { get; set; }
 
         [JsonProperty("password")]

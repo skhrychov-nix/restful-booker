@@ -7,16 +7,15 @@ using System.Threading.Tasks;
 
 namespace restful_booker.Models
 {
-    internal class Booking
+    internal class Booking : Customer
     {
-        public Customer Customer { get; set; }
-
         [JsonProperty("totalprice")]
         public decimal TotalPrice { get; set; }
 
         [JsonProperty("depositpaid")]
         public bool DepositPaid { get; set; }
 
+        [JsonProperty("bookingdates")]
         public BookingDates BookingDates { get; set; }
 
         [JsonProperty("additionalneeds")]

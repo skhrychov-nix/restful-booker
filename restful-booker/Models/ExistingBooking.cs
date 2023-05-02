@@ -9,9 +9,10 @@ namespace restful_booker.Models
 {
     internal class ExistingBooking
     {
-        [JsonProperty("id")]   // ??????
+        [JsonProperty("bookingid")]
         public int Id { get; set; }
-
+        
+        [JsonProperty("booking")]
         public Booking Booking { get; set; }
     }
 }
