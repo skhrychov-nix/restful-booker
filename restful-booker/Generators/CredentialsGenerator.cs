@@ -11,8 +11,8 @@ namespace restful_booker.Generators
     {
         public static Credentials GenerateCredentils()
         {
-            var userName = "Admin";
-            var password = "password123";
+            var userName = "Admin"; 
+            var password = "password123"; 
 
             return new Credentials
             {

@@ -11,8 +11,8 @@ namespace restful_booker.Generators
     {
         public static Customer GenerateCustomer()
         {
-            var firstName = "John";
-            var lastName = "Doe";
+            var firstName = "John"; // use Bogus for fake data
+            var lastName = "Doe"; // use Bogus for fake data
 
             return new Customer { FirstName = firstName, LastName = lastName };
         }
